@@ -1,0 +1,14 @@
+settings:
+  docker:
+    parent_image: 992382797823.dkr.ecr.eu-central-1.amazonaws.com/zenml-rlwlcs:latest
+    skip_build: True
+  orchestrator.sagemaker:
+    synchronous: false
+    
+parameters:
+  user_full_name: Ba Tran # [First Name(s)] [Last Name]
+  links:
+    - https://craftinvesting.substack.com/p/tim-hieu-nganh-nang-luong-co-ban-132?r=87t2e5&utm_campaign=post&utm_medium=web
+    - https://craftinvesting.substack.com/p/tim-hieu-nganh-nang-luong-co-ban-0fa?r=87t2e5&utm_campaign=post&utm_medium=web
+    - https://craftinvesting.substack.com/p/tim-hieu-nganh-nang-luong-co-ban-13c?r=87t2e5&utm_campaign=post&utm_medium=web
+    - https://github.com/malywut/gpt_examples
